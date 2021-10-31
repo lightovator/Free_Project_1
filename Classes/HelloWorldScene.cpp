@@ -53,11 +53,6 @@ bool HelloWorld::init()
     button01->setScale9Enabled(true);
     this->addChild(button01, 1);
 
-    TextField* userChat = TextField::create("Enter text.", "fonts/04b20.ttf", 14.0f);
-    userChat->setColor(Color3B(0, 232, 123));
-    userChat->setPosition(Vec2(117, 250));
-    this->addChild(userChat, 1);
-   
     Sprite* spriteBG = Sprite::create("res/galaxy.jpg");
     spriteBG->setPosition(Vec2(1920 / 2, 1080 / 2));
     this->addChild(spriteBG);
